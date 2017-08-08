@@ -7,10 +7,10 @@ body {
 .section-one {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: initial;
     align-items: center;
     width: 100%;
-    height: 1052px;
+    height: 813px;
     background-image: url(img/cliff.png);
     background-position: center;
     background-size: cover;
@@ -53,6 +53,7 @@ body {
     line-height: 52px;
     text-align: center;
     color: white;
+    border-radius: 5px;
 }
 
 .notification {
@@ -63,5 +64,26 @@ body {
     font-size: 0.875em;
     line-height: 11px;
     text-align: center;
-    color: rgba(40,40,40,255);
+    color: #767678;
+}
+
+.element-one {
+    margin-top: 124px;
+}
+
+.element-two {
+    margin-top: 42px;
+}
+
+.element-three {
+    margin-top: 37px;
+}
+
+.element-four {
+    margin-top: 19px;
+}
+
+.button:hover {
+    cursor: pointer;
+    opacity: 0.9;
 }
