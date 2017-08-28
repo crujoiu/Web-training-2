@@ -120,11 +120,8 @@ body {
     /* width: 568px;
     height: 724px; */
     background: #ececec;
-}
-
-.photo-triangle {
-    width: 0;
-    height: 0;
+    background-image: url(img/rectangle.png);
+    background-blend-mode: multiply;
 }
 
 p {
