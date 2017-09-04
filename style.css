@@ -107,8 +107,17 @@ body {
 }
 
  .description-wrap {
-    width: 65%;
-    padding: 150px 150px;
+    width: 60%;
+    padding: 150px 180px;
+}
+
+.photo {
+    width: 40%;
+    background-image: url(img/man2.png);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
 }
 
 .rectangle {
@@ -116,10 +125,10 @@ body {
     height: 600px;
     transform: rotate(45deg);
     background: #ff6d6d;
-    opacity: 0.5;
     position: absolute;
-    bottom: -930px;
-    right: -300px;
+    opacity: 0.5;
+    bottom: -300px;
+    right: -390px;
 }
 
 p {
@@ -163,6 +172,17 @@ em {
     }
 
     .description-wrap {
-        padding: 0;
+        padding: 90px;
+    }
+
+    .photo {
+        width: 300px;
+        height: 350px;
+        margin: 0 auto;
+    }
+
+    .rectangle {
+        bottom: -300px;
+        right: -365px;
     }
 }
